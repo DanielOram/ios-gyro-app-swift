@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EC27F5AE9A6B3B7B0394A43 /* Pods_ios_gyro_app_swiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21BBA693431B07F57294AE56 /* Pods_ios_gyro_app_swiftUITests.framework */; };
-		470F1391E38161609FE79D76 /* Pods_ios_gyro_app_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30271592E7044368E350DAFB /* Pods_ios_gyro_app_swift.framework */; };
-		6C7A68BDBFB4A1B2CE266238 /* Pods_ios_gyro_app_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4B279C6F5D1B3B51E2F1E3 /* Pods_ios_gyro_app_swiftTests.framework */; };
 		EF89BBE51D5C37A700A1F1C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF89BBE41D5C37A700A1F1C6 /* AppDelegate.swift */; };
 		EF89BBE71D5C37A700A1F1C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF89BBE61D5C37A700A1F1C6 /* ViewController.swift */; };
 		EF89BBEA1D5C37A700A1F1C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF89BBE81D5C37A700A1F1C6 /* Main.storyboard */; };
@@ -37,14 +34,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		21BBA693431B07F57294AE56 /* Pods_ios_gyro_app_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_gyro_app_swiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		30271592E7044368E350DAFB /* Pods_ios_gyro_app_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_gyro_app_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		36CC94D4984ADBEA9A3C4AC9 /* Pods-ios-gyro-app-swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-gyro-app-swiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-gyro-app-swiftUITests/Pods-ios-gyro-app-swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		481AFD52D95C10808E289E4C /* Pods-ios-gyro-app-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-gyro-app-swiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-gyro-app-swiftTests/Pods-ios-gyro-app-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
-		8FB9D75849A92476F60DC38E /* Pods-ios-gyro-app-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-gyro-app-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-gyro-app-swift/Pods-ios-gyro-app-swift.debug.xcconfig"; sourceTree = "<group>"; };
-		BF4B279C6F5D1B3B51E2F1E3 /* Pods_ios_gyro_app_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_gyro_app_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D399240E8383DD05E76E8C6C /* Pods-ios-gyro-app-swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-gyro-app-swiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-gyro-app-swiftTests/Pods-ios-gyro-app-swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
-		EB61BD11B3042609F2754802 /* Pods-ios-gyro-app-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-gyro-app-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-gyro-app-swift/Pods-ios-gyro-app-swift.release.xcconfig"; sourceTree = "<group>"; };
 		EF89BBE11D5C37A700A1F1C6 /* ios-gyro-app-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-gyro-app-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF89BBE41D5C37A700A1F1C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF89BBE61D5C37A700A1F1C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +47,6 @@
 		EF89BC001D5C37A700A1F1C6 /* ios-gyro-app-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-gyro-app-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF89BC041D5C37A700A1F1C6 /* ios_gyro_app_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_gyro_app_swiftUITests.swift; sourceTree = "<group>"; };
 		EF89BC061D5C37A700A1F1C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8680C681C4712667881A072 /* Pods-ios-gyro-app-swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-gyro-app-swiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-gyro-app-swiftUITests/Pods-ios-gyro-app-swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +54,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				470F1391E38161609FE79D76 /* Pods_ios_gyro_app_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +61,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C7A68BDBFB4A1B2CE266238 /* Pods_ios_gyro_app_swiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,36 +68,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EC27F5AE9A6B3B7B0394A43 /* Pods_ios_gyro_app_swiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		125647D55312D0754F97C5A2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				30271592E7044368E350DAFB /* Pods_ios_gyro_app_swift.framework */,
-				BF4B279C6F5D1B3B51E2F1E3 /* Pods_ios_gyro_app_swiftTests.framework */,
-				21BBA693431B07F57294AE56 /* Pods_ios_gyro_app_swiftUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8D227F3C1A371D31E6312B43 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8FB9D75849A92476F60DC38E /* Pods-ios-gyro-app-swift.debug.xcconfig */,
-				EB61BD11B3042609F2754802 /* Pods-ios-gyro-app-swift.release.xcconfig */,
-				D399240E8383DD05E76E8C6C /* Pods-ios-gyro-app-swiftTests.debug.xcconfig */,
-				481AFD52D95C10808E289E4C /* Pods-ios-gyro-app-swiftTests.release.xcconfig */,
-				36CC94D4984ADBEA9A3C4AC9 /* Pods-ios-gyro-app-swiftUITests.debug.xcconfig */,
-				F8680C681C4712667881A072 /* Pods-ios-gyro-app-swiftUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		EF89BBD81D5C37A700A1F1C6 = {
 			isa = PBXGroup;
 			children = (
@@ -119,8 +81,6 @@
 				EF89BBF81D5C37A700A1F1C6 /* ios-gyro-app-swiftTests */,
 				EF89BC031D5C37A700A1F1C6 /* ios-gyro-app-swiftUITests */,
 				EF89BBE21D5C37A700A1F1C6 /* Products */,
-				8D227F3C1A371D31E6312B43 /* Pods */,
-				125647D55312D0754F97C5A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -172,12 +132,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF89BC091D5C37A700A1F1C6 /* Build configuration list for PBXNativeTarget "ios-gyro-app-swift" */;
 			buildPhases = (
-				50BC57EC97C57A3B42B65AE8 /* [CP] Check Pods Manifest.lock */,
 				EF89BBDD1D5C37A700A1F1C6 /* Sources */,
 				EF89BBDE1D5C37A700A1F1C6 /* Frameworks */,
 				EF89BBDF1D5C37A700A1F1C6 /* Resources */,
-				16F5279888547F307A228EAB /* [CP] Embed Pods Frameworks */,
-				877C77CC6112B67A177FF1DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,12 +149,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF89BC0C1D5C37A700A1F1C6 /* Build configuration list for PBXNativeTarget "ios-gyro-app-swiftTests" */;
 			buildPhases = (
-				F636A4989BDA433116352CF1 /* [CP] Check Pods Manifest.lock */,
 				EF89BBF11D5C37A700A1F1C6 /* Sources */,
 				EF89BBF21D5C37A700A1F1C6 /* Frameworks */,
 				EF89BBF31D5C37A700A1F1C6 /* Resources */,
-				7BF29E2B95D65D3A6A6DA83C /* [CP] Embed Pods Frameworks */,
-				25BA3EF50BB88EE3D682AACF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,11 +167,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF89BC0F1D5C37A700A1F1C6 /* Build configuration list for PBXNativeTarget "ios-gyro-app-swiftUITests" */;
 			buildPhases = (
-				EF3A56D18101611132E99B94 /* [CP] Check Pods Manifest.lock */,
 				EF89BBFC1D5C37A700A1F1C6 /* Sources */,
 				EF89BBFD1D5C37A700A1F1C6 /* Frameworks */,
 				EF89BBFE1D5C37A700A1F1C6 /* Resources */,
-				F7560F51F346CC21F22994DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -298,129 +250,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		16F5279888547F307A228EAB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-gyro-app-swift/Pods-ios-gyro-app-swift-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		25BA3EF50BB88EE3D682AACF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-gyro-app-swiftTests/Pods-ios-gyro-app-swiftTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		50BC57EC97C57A3B42B65AE8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		7BF29E2B95D65D3A6A6DA83C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-gyro-app-swiftTests/Pods-ios-gyro-app-swiftTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		877C77CC6112B67A177FF1DE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-gyro-app-swift/Pods-ios-gyro-app-swift-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EF3A56D18101611132E99B94 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		F636A4989BDA433116352CF1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		F7560F51F346CC21F22994DA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-gyro-app-swiftUITests/Pods-ios-gyro-app-swiftUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EF89BBDD1D5C37A700A1F1C6 /* Sources */ = {
@@ -570,7 +399,6 @@
 		};
 		EF89BC0A1D5C37A700A1F1C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FB9D75849A92476F60DC38E /* Pods-ios-gyro-app-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ios-gyro-app-swift/Info.plist";
@@ -582,7 +410,6 @@
 		};
 		EF89BC0B1D5C37A700A1F1C6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB61BD11B3042609F2754802 /* Pods-ios-gyro-app-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ios-gyro-app-swift/Info.plist";
@@ -594,7 +421,6 @@
 		};
 		EF89BC0D1D5C37A700A1F1C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D399240E8383DD05E76E8C6C /* Pods-ios-gyro-app-swiftTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "ios-gyro-app-swiftTests/Info.plist";
@@ -607,7 +433,6 @@
 		};
 		EF89BC0E1D5C37A700A1F1C6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 481AFD52D95C10808E289E4C /* Pods-ios-gyro-app-swiftTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "ios-gyro-app-swiftTests/Info.plist";
@@ -620,7 +445,6 @@
 		};
 		EF89BC101D5C37A700A1F1C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36CC94D4984ADBEA9A3C4AC9 /* Pods-ios-gyro-app-swiftUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "ios-gyro-app-swiftUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -632,7 +456,6 @@
 		};
 		EF89BC111D5C37A700A1F1C6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8680C681C4712667881A072 /* Pods-ios-gyro-app-swiftUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "ios-gyro-app-swiftUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -661,7 +484,6 @@
 				EF89BC0B1D5C37A700A1F1C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		EF89BC0C1D5C37A700A1F1C6 /* Build configuration list for PBXNativeTarget "ios-gyro-app-swiftTests" */ = {
 			isa = XCConfigurationList;
@@ -670,7 +492,6 @@
 				EF89BC0E1D5C37A700A1F1C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		EF89BC0F1D5C37A700A1F1C6 /* Build configuration list for PBXNativeTarget "ios-gyro-app-swiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -679,7 +500,6 @@
 				EF89BC111D5C37A700A1F1C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

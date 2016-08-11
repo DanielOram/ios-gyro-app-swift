@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF8320E31D5C4A8200E154E8 /* MotionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8320E21D5C4A8200E154E8 /* MotionKit.swift */; };
 		EF89BBE51D5C37A700A1F1C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF89BBE41D5C37A700A1F1C6 /* AppDelegate.swift */; };
 		EF89BBE71D5C37A700A1F1C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF89BBE61D5C37A700A1F1C6 /* ViewController.swift */; };
 		EF89BBEA1D5C37A700A1F1C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF89BBE81D5C37A700A1F1C6 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF8320E21D5C4A8200E154E8 /* MotionKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionKit.swift; sourceTree = "<group>"; };
 		EF89BBE11D5C37A700A1F1C6 /* ios-gyro-app-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-gyro-app-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF89BBE41D5C37A700A1F1C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF89BBE61D5C37A700A1F1C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		EF89BBE31D5C37A700A1F1C6 /* ios-gyro-app-swift */ = {
 			isa = PBXGroup;
 			children = (
+				EF8320E21D5C4A8200E154E8 /* MotionKit.swift */,
 				EF89BBE41D5C37A700A1F1C6 /* AppDelegate.swift */,
 				EF89BBE61D5C37A700A1F1C6 /* ViewController.swift */,
 				EF89BBE81D5C37A700A1F1C6 /* Main.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				EF89BBE71D5C37A700A1F1C6 /* ViewController.swift in Sources */,
 				EF89BBE51D5C37A700A1F1C6 /* AppDelegate.swift in Sources */,
+				EF8320E31D5C4A8200E154E8 /* MotionKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +488,7 @@
 				EF89BC0B1D5C37A700A1F1C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF89BC0C1D5C37A700A1F1C6 /* Build configuration list for PBXNativeTarget "ios-gyro-app-swiftTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				EF89BC0E1D5C37A700A1F1C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF89BC0F1D5C37A700A1F1C6 /* Build configuration list for PBXNativeTarget "ios-gyro-app-swiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				EF89BC111D5C37A700A1F1C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF89BBE51D5C37A700A1F1C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF89BBE41D5C37A700A1F1C6 /* AppDelegate.swift */; };
+		EF89BBE71D5C37A700A1F1C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF89BBE61D5C37A700A1F1C6 /* ViewController.swift */; };
+		EF89BBEA1D5C37A700A1F1C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF89BBE81D5C37A700A1F1C6 /* Main.storyboard */; };
+		EF89BBEC1D5C37A700A1F1C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF89BBEB1D5C37A700A1F1C6 /* Assets.xcassets */; };
+		EF89BBEF1D5C37A700A1F1C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF89BBED1D5C37A700A1F1C6 /* LaunchScreen.storyboard */; };
+		EF89BBFA1D5C37A700A1F1C6 /* ios_gyro_app_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF89BBF91D5C37A700A1F1C6 /* ios_gyro_app_swiftTests.swift */; };
+		EF89BC051D5C37A700A1F1C6 /* ios_gyro_app_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF89BC041D5C37A700A1F1C6 /* ios_gyro_app_swiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF89BBF61D5C37A700A1F1C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF89BBD91D5C37A700A1F1C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF89BBE01D5C37A700A1F1C6;
+			remoteInfo = "ios-gyro-app-swift";
+		};
+		EF89BC011D5C37A700A1F1C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF89BBD91D5C37A700A1F1C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF89BBE01D5C37A700A1F1C6;
+			remoteInfo = "ios-gyro-app-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF89BBE11D5C37A700A1F1C6 /* ios-gyro-app-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-gyro-app-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF89BBE41D5C37A700A1F1C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF89BBE61D5C37A700A1F1C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF89BBE91D5C37A700A1F1C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF89BBEB1D5C37A700A1F1C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF89BBEE1D5C37A700A1F1C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF89BBF01D5C37A700A1F1C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF89BBF51D5C37A700A1F1C6 /* ios-gyro-app-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-gyro-app-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF89BBF91D5C37A700A1F1C6 /* ios_gyro_app_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_gyro_app_swiftTests.swift; sourceTree = "<group>"; };
+		EF89BBFB1D5C37A700A1F1C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF89BC001D5C37A700A1F1C6 /* ios-gyro-app-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-gyro-app-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF89BC041D5C37A700A1F1C6 /* ios_gyro_app_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_gyro_app_swiftUITests.swift; sourceTree = "<group>"; };
+		EF89BC061D5C37A700A1F1C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF89BBDE1D5C37A700A1F1C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF89BBF21D5C37A700A1F1C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF89BBFD1D5C37A700A1F1C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF89BBD81D5C37A700A1F1C6 = {
+			isa = PBXGroup;
+			children = (
+				EF89BBE31D5C37A700A1F1C6 /* ios-gyro-app-swift */,
+				EF89BBF81D5C37A700A1F1C6 /* ios-gyro-app-swiftTests */,
+				EF89BC031D5C37A700A1F1C6 /* ios-gyro-app-swiftUITests */,
+				EF89BBE21D5C37A700A1F1C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF89BBE21D5C37A700A1F1C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF89BBE11D5C37A700A1F1C6 /* ios-gyro-app-swift.app */,
+				EF89BBF51D5C37A700A1F1C6 /* ios-gyro-app-swiftTests.xctest */,
+				EF89BC001D5C37A700A1F1C6 /* ios-gyro-app-swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF89BBE31D5C37A700A1F1C6 /* ios-gyro-app-swift */ = {
+			isa = PBXGroup;
+			children = (
+				EF89BBE41D5C37A700A1F1C6 /* AppDelegate.swift */,
+				EF89BBE61D5C37A700A1F1C6 /* ViewController.swift */,
+				EF89BBE81D5C37A700A1F1C6 /* Main.storyboard */,
+				EF89BBEB1D5C37A700A1F1C6 /* Assets.xcassets */,
+				EF89BBED1D5C37A700A1F1C6 /* LaunchScreen.storyboard */,
+				EF89BBF01D5C37A700A1F1C6 /* Info.plist */,
+			);
+			path = "ios-gyro-app-swift";
+			sourceTree = "<group>";
+		};
+		EF89BBF81D5C37A700A1F1C6 /* ios-gyro-app-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF89BBF91D5C37A700A1F1C6 /* ios_gyro_app_swiftTests.swift */,
+				EF89BBFB1D5C37A700A1F1C6 /* Info.plist */,
+			);
+			path = "ios-gyro-app-swiftTests";
+			sourceTree = "<group>";
+		};
+		EF89BC031D5C37A700A1F1C6 /* ios-gyro-app-swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF89BC041D5C37A700A1F1C6 /* ios_gyro_app_swiftUITests.swift */,
+				EF89BC061D5C37A700A1F1C6 /* Info.plist */,
+			);
+			path = "ios-gyro-app-swiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF89BBE01D5C37A700A1F1C6 /* ios-gyro-app-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF89BC091D5C37A700A1F1C6 /* Build configuration list for PBXNativeTarget "ios-gyro-app-swift" */;
+			buildPhases = (
+				EF89BBDD1D5C37A700A1F1C6 /* Sources */,
+				EF89BBDE1D5C37A700A1F1C6 /* Frameworks */,
+				EF89BBDF1D5C37A700A1F1C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-gyro-app-swift";
+			productName = "ios-gyro-app-swift";
+			productReference = EF89BBE11D5C37A700A1F1C6 /* ios-gyro-app-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF89BBF41D5C37A700A1F1C6 /* ios-gyro-app-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF89BC0C1D5C37A700A1F1C6 /* Build configuration list for PBXNativeTarget "ios-gyro-app-swiftTests" */;
+			buildPhases = (
+				EF89BBF11D5C37A700A1F1C6 /* Sources */,
+				EF89BBF21D5C37A700A1F1C6 /* Frameworks */,
+				EF89BBF31D5C37A700A1F1C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF89BBF71D5C37A700A1F1C6 /* PBXTargetDependency */,
+			);
+			name = "ios-gyro-app-swiftTests";
+			productName = "ios-gyro-app-swiftTests";
+			productReference = EF89BBF51D5C37A700A1F1C6 /* ios-gyro-app-swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF89BBFF1D5C37A700A1F1C6 /* ios-gyro-app-swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF89BC0F1D5C37A700A1F1C6 /* Build configuration list for PBXNativeTarget "ios-gyro-app-swiftUITests" */;
+			buildPhases = (
+				EF89BBFC1D5C37A700A1F1C6 /* Sources */,
+				EF89BBFD1D5C37A700A1F1C6 /* Frameworks */,
+				EF89BBFE1D5C37A700A1F1C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF89BC021D5C37A700A1F1C6 /* PBXTargetDependency */,
+			);
+			name = "ios-gyro-app-swiftUITests";
+			productName = "ios-gyro-app-swiftUITests";
+			productReference = EF89BC001D5C37A700A1F1C6 /* ios-gyro-app-swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF89BBD91D5C37A700A1F1C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Daniel Oram";
+				TargetAttributes = {
+					EF89BBE01D5C37A700A1F1C6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EF89BBF41D5C37A700A1F1C6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EF89BBE01D5C37A700A1F1C6;
+					};
+					EF89BBFF1D5C37A700A1F1C6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EF89BBE01D5C37A700A1F1C6;
+					};
+				};
+			};
+			buildConfigurationList = EF89BBDC1D5C37A700A1F1C6 /* Build configuration list for PBXProject "ios-gyro-app-swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF89BBD81D5C37A700A1F1C6;
+			productRefGroup = EF89BBE21D5C37A700A1F1C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF89BBE01D5C37A700A1F1C6 /* ios-gyro-app-swift */,
+				EF89BBF41D5C37A700A1F1C6 /* ios-gyro-app-swiftTests */,
+				EF89BBFF1D5C37A700A1F1C6 /* ios-gyro-app-swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF89BBDF1D5C37A700A1F1C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF89BBEF1D5C37A700A1F1C6 /* LaunchScreen.storyboard in Resources */,
+				EF89BBEC1D5C37A700A1F1C6 /* Assets.xcassets in Resources */,
+				EF89BBEA1D5C37A700A1F1C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF89BBF31D5C37A700A1F1C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF89BBFE1D5C37A700A1F1C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF89BBDD1D5C37A700A1F1C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF89BBE71D5C37A700A1F1C6 /* ViewController.swift in Sources */,
+				EF89BBE51D5C37A700A1F1C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF89BBF11D5C37A700A1F1C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF89BBFA1D5C37A700A1F1C6 /* ios_gyro_app_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF89BBFC1D5C37A700A1F1C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF89BC051D5C37A700A1F1C6 /* ios_gyro_app_swiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF89BBF71D5C37A700A1F1C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF89BBE01D5C37A700A1F1C6 /* ios-gyro-app-swift */;
+			targetProxy = EF89BBF61D5C37A700A1F1C6 /* PBXContainerItemProxy */;
+		};
+		EF89BC021D5C37A700A1F1C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF89BBE01D5C37A700A1F1C6 /* ios-gyro-app-swift */;
+			targetProxy = EF89BC011D5C37A700A1F1C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF89BBE81D5C37A700A1F1C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF89BBE91D5C37A700A1F1C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF89BBED1D5C37A700A1F1C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF89BBEE1D5C37A700A1F1C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF89BC071D5C37A700A1F1C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF89BC081D5C37A700A1F1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF89BC0A1D5C37A700A1F1C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ios-gyro-app-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danieloram.ios.ios-gyro-app-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF89BC0B1D5C37A700A1F1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ios-gyro-app-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danieloram.ios.ios-gyro-app-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF89BC0D1D5C37A700A1F1C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ios-gyro-app-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danieloram.ios.ios-gyro-app-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-gyro-app-swift.app/ios-gyro-app-swift";
+			};
+			name = Debug;
+		};
+		EF89BC0E1D5C37A700A1F1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ios-gyro-app-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danieloram.ios.ios-gyro-app-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-gyro-app-swift.app/ios-gyro-app-swift";
+			};
+			name = Release;
+		};
+		EF89BC101D5C37A700A1F1C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ios-gyro-app-swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danieloram.ios.ios-gyro-app-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ios-gyro-app-swift";
+			};
+			name = Debug;
+		};
+		EF89BC111D5C37A700A1F1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ios-gyro-app-swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danieloram.ios.ios-gyro-app-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ios-gyro-app-swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF89BBDC1D5C37A700A1F1C6 /* Build configuration list for PBXProject "ios-gyro-app-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF89BC071D5C37A700A1F1C6 /* Debug */,
+				EF89BC081D5C37A700A1F1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF89BC091D5C37A700A1F1C6 /* Build configuration list for PBXNativeTarget "ios-gyro-app-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF89BC0A1D5C37A700A1F1C6 /* Debug */,
+				EF89BC0B1D5C37A700A1F1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF89BC0C1D5C37A700A1F1C6 /* Build configuration list for PBXNativeTarget "ios-gyro-app-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF89BC0D1D5C37A700A1F1C6 /* Debug */,
+				EF89BC0E1D5C37A700A1F1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF89BC0F1D5C37A700A1F1C6 /* Build configuration list for PBXNativeTarget "ios-gyro-app-swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF89BC101D5C37A700A1F1C6 /* Debug */,
+				EF89BC111D5C37A700A1F1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF89BBD91D5C37A700A1F1C6 /* Project object */;
+}

@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        self.initialiseMotion()
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,5 +23,14 @@ class ViewController: UIViewController {
     }
 
 
+    func initialiseMotion(){
+        let motionKit = MotionKit()
+        
+        motionKit.getAccelerometerValues(0.2){
+            (x, y, z) in
+            //print("x = \(x), y = \(y), z = \(z)")
+            print("z = \(z)")
+        }
+    }
 }
 

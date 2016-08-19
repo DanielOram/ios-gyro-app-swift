@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SpriteKit
 
 class ViewController: UIViewController {
 
@@ -31,6 +32,20 @@ class ViewController: UIViewController {
             //print("x = \(x), y = \(y), z = \(z)")
             print("z = \(z)")
         }
+    }
+    
+    func setupGameScene(){
+        let scene = ViewScene(size: view.bounds.size)
+        let skView = view as! SKView
+        skView.showsFPS = true
+        skView.showsNodeCount = true
+        skView.ignoresSiblingOrder = true
+        scene.scaleMode = .ResizeFill
+        skView.presentScene(scene)
+    }
+    
+    override func prefersStatusBarHidden() -> Bool {
+        return true
     }
 }
 
